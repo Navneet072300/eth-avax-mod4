@@ -4,6 +4,7 @@ The program provided is an example of a smart contract written in Solidity.This 
 ## Description
 
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain and Hardhat network is used like ERC20 and openzeppelin. The contract has a several function like onlyowner that only the owner can mint the token, mint to add some token, burn to withdraw som tokens and transfer to transfer from one address to another, additems to add items for token exchange, redeemItem to redeem itmes in echange of tokens.
+In this program Avalanch testnet is used and it is veried using Snowtrace.
 
 ## Getting Started
 
@@ -70,6 +71,10 @@ contract DegenToken is ERC20, Ownable {
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile token.sol" button.
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "token" contract from the dropdown menu, and then click on the "Deploy" button.
 Once the contract is deployed, mint some amount of token, check the balance using getBalance, name of contract from name and symbol from symbol. You can transfer token from one player to another using trnsfer and burn by using burn function, you can also add items to exchange with token using addItem and reedem items using redeemItems. You can also see the the details of items using getItemDetails.
+
+You can see all the transcations on Snowtrace.
+![image](https://github.com/Navneet072300/eth-avax-mod4/assets/89797286/3a4f7fc0-14e5-480b-a200-803cb412245b)
+
 ## Authors
 
 Navneet Shahi 
